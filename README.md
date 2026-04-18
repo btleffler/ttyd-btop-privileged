@@ -2,6 +2,8 @@
 
 Browser-based btop terminal for monitoring a Linux host — with **full root access**.
 
+**[Source on GitHub](https://github.com/btleffler/ttyd-btop-privileged)** · **[Docker Hub](https://hub.docker.com/r/btleffler/ttyd-btop-privileged)**
+
 > **⚠️ Security Warning:** This image runs as root with `--privileged`. It can see _and kill_ any process on the host. **Only use on trusted, private networks.** If you don't need root access, use the unprivileged image instead: [btleffler/ttyd-btop](https://hub.docker.com/r/btleffler/ttyd-btop)
 
 ## Quick Start
@@ -46,4 +48,4 @@ Raspberry Pi 3B (ARMv7) and other ARM/x86 Linux hosts. Alpine has full multi-arc
 
 ## See Also
 
-- [btleffler/ttyd-btop](https://hub.docker.com/r/btleffler/ttyd-btop) — Unprivileged version (read-only monitoring, cannot kill host processes)
+- **btleffler/ttyd-btop** — Unprivileged version (read-only monitoring, cannot kill host processes). [Docker Hub](https://hub.docker.com/r/btleffler/ttyd-btop) · [GitHub](https://github.com/btleffler/ttyd-btop)
